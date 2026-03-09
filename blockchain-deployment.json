@@ -1,0 +1,24 @@
+{
+  "network": "sepolia",
+  "chainId": 11155111,
+  "deployedAt": "2026-03-07T18:35:16.634Z",
+  "deployer": "0x1e6d7be40C13417BC96a12A7e38d5662d31aB034",
+  "relayer": "0x1e6d7be40C13417BC96a12A7e38d5662d31aB034",
+ 
+  "contracts": {
+    "TrustedForwarder": {
+      "address": "0xE66d67F96a4E83cD686307Ae96c846B2cB6Bb69E",
+      "abiPath": "./artifacts/contracts/TrustedForwarder.sol/TrustedForwarder.json"
+    },
+    "TouristSafetyERC2771": {
+      "address": "0x0950C3A0D3B44829F662a4A5bB40B22f0C8c0e4E",
+      "abiPath": "./artifacts/contracts/TouristSafetyERC2771.sol/TouristSafetyERC2771.json",
+      "trustedForwarder": "0xE66d67F96a4E83cD686307Ae96c846B2cB6Bb69E"
+    }
+  },
+  "testUserRegistration": {
+    "address": "0x1e6d7be40C13417BC96a12A7e38d5662d31aB034",
+    "registered": true,
+    "touristId": "TID-69AC6FE0-6866367A"
+  }
+}

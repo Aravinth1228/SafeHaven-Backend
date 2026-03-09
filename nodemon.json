@@ -1,0 +1,22 @@
+{
+  "watch": [
+    "index.js",
+    "routes/",
+    "blockchain/",
+    "models/"
+  ],
+  "ext": "js,json",
+  "ignore": [
+    "node_modules",
+    "*.log",
+    "blockchain-deployment.json"
+  ],
+  "delay": 2000,
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "events": {
+    "restart": "echo '🔄 Restarting server...'"
+  },
+  "verbose": false
+}

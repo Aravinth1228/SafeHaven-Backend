@@ -1,0 +1,24 @@
+{
+  "name": "safehaven-server",
+  "version": "1.0.0",
+  "description": "SafeHaven Node.js Backend Server with ERC-2771 Blockchain Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --config nodemon.json index.js",
+    "clear-db": "node scripts/clear-db.js",
+    "drop-db": "node scripts/drop-database.js",
+    "test": "node tests/test-forwarder.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "ethers": "^6.16.0",
+    "abi-decoder": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
